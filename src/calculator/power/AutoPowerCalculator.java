@@ -10,7 +10,7 @@ public class AutoPowerCalculator extends PowerCalculator {
 
 	@Override
 	public int pow(int a, int b) {
-		return 0;
+		return (int) Math.pow(a,b);
 	}
 
 }

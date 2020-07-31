@@ -10,7 +10,11 @@ public class ManualPowerCalculator extends PowerCalculator {
 
 	@Override
 	public int pow(int a, int b) {
-		return 0;
+		int result = 1;
+		for (int i = 0; i < b; i++) {
+			result*=a;
+		}
+		return result;
 	}
 
 

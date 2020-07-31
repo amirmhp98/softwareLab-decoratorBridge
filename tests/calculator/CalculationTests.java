@@ -1,8 +1,12 @@
 package calculator;
 
 
-import cafe.Beverage;
-import cafe.coffee.HouseBlend;
+import calculator.mult.AutoMultCalculator;
+import calculator.mult.ManualMultCalculator;
+import calculator.mult.MultCalculator;
+import calculator.power.AutoPowerCalculator;
+import calculator.power.ManualPowerCalculator;
+import calculator.power.PowerCalculator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
